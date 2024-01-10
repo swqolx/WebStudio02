@@ -2,6 +2,7 @@
     --gray-color:#2F303A;
     --white-color:#fff;
     --blue-color:#2196F3;
+    --darkwhite-color:#F5F4FA;
 }
 
 button{
@@ -21,4 +22,8 @@ footer{
 }
 article{
     background-color: var(--gray-color);
+}
+
+#lollo{
+    background-color: var(--darkwhite-color);
 }
