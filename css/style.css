@@ -4,8 +4,9 @@
     --white-color:#fff;
     --blue-color:#2196F3;
     --darkwhite-color:#F5F4FA;
+    --black-color:#212121;
+    --abzac-color:#757575;
 }
-
 button{
     border-radius: 4px;
 background: #2196F3;
@@ -17,19 +18,126 @@ footer{
         color:var(--white-color);
     }
 }
-.textlogo{
+.logo{
     color: var(--blue-color);
     font-size: 26px;
 }
-article{
+.article{
     background-color: var(--gray-color);
+    width: 1600px;
+height: 600px;
+flex-shrink: 0;
 }
 
-#lollo{
+.section-03{
     background-color: var(--darkwhite-color);
 }
 
 
+.header-item{
+    color: var(--black-color);
 
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+.article-title{
+    color: var(--white-color);
 
+text-align: center;
+font-family: Roboto;
+font-size: 44px;
+font-style: normal;
+font-weight: 900;
+line-height: 60px; /* 136.364% */
+letter-spacing: 2.64px;
+text-transform: uppercase;
+}
 
+.article-button{
+    color: var(--white-color);
+
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.96px;
+}
+.section-list{
+    color:var(--black-color);
+
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+.section-abzac{
+    color: var(--abzac-color);
+
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+}
+
+.section-02-title{
+    color: var(--black-color);
+
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+}
+.section-03-title{color: var(--black-color);
+
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;}
+
+    .footer-list{
+        color: var(--white-color);
+
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+    }
+.section-03-h3{color: var(--black-color);
+
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;}
+    .section-03-abzac{
+        color: var(--abzac-color);
+
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.48px;
+    }
