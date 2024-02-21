@@ -1,143 +1,174 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400; 0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap') ;
-:root{
-    --gray-color:#2F303A;
-    --white-color:#fff;
-    --blue-color:#2196F3;
-    --darkwhite-color:#F5F4FA;
-    --black-color:#212121;
-    --abzac-color:#757575;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400; 0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+  --gray-color: #2f303a;
+  --white-color: #fff;
+  --blue-color: #2196f3;
+  --darkwhite-color: #f5f4fa;
+  --black-color: #212121;
+  --abzac-color: #757575;
 }
-button{
-    border-radius: 4px;
-background: #2196F3;
-box-shadow: 0px 4px 4px 0px rgb(231, 217, 217);
+button {
+  border-radius: 4px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px 0px rgb(231, 217, 217);
 }
-footer{
-    background-color:var(--gray-color);
-    a{
-        color:var(--white-color);
-    }
-}
-.logo{
-    color: var(--blue-color);
-    font-size: 26px;
-}
-.article{
-    background-color: var(--gray-color);
-    width: 1600px;
-height: 600px;
-flex-shrink: 0;
-}
-
-.section-03{
-    background-color: var(--darkwhite-color);
-}
-
-
-.header-item{
-    color: var(--black-color);
-
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
-}
-.article-title{
+footer {
+  background-color: var(--gray-color);
+  a {
     color: var(--white-color);
-
-text-align: center;
-font-family: Roboto;
-font-size: 44px;
-font-style: normal;
-font-weight: 900;
-line-height: 60px; /* 136.364% */
-letter-spacing: 2.64px;
-text-transform: uppercase;
+  }
+}
+.logo {
+  color: var(--blue-color);
+  font-size: 26px;
+}
+.article {
+  background-color: var(--gray-color);
+  width: 1600px;
+  height: 600px;
+  margin-top: 80px;
 }
 
-.article-button{
-    color: var(--white-color);
-
-text-align: center;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 30px; /* 187.5% */
-letter-spacing: 0.96px;
+.section-03 {
+  background-color: var(--darkwhite-color);
+  width: 1600px;
+  height: 648px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
-.section-list{
-    color:var(--black-color);
 
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.42px;
-text-transform: uppercase;
+.header-item {
+  color: var(--black-color);
+
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
 }
-.section-abzac{
+
+.article-button {
+  color: var(--white-color);
+
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.96px;
+}
+.section-list {
+  color: var(--black-color);
+
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.section-abzac {
+  color: var(--abzac-color);
+
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400px;
+}
+
+.section-02-title {
+  color: var(--black-color);
+
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+}
+.section-03-title {
+  color: var(--black-color);
+
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+
+.footer-list {
+  color: var(--white-color);
+
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+}
+
+.section-02-list {
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-bottom: 94px;
+  margin-top: 50px;
+}
+.section-list {
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
+.section-list .section-item {
+  width: 270px;
+}
+
+.article-title {
+  width: 696px;
+  height: 128px;
+  font-size: 44px;
+  font-family: "Roboto";
+  color: var(--white-color);
+  text-align: center;
+}
+.section-03-list {
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.section-03-list li {
+    width: 270px;
+    background-color: var(--white-color);
+    height: 368px;
+   text-align: center;
+  }
+  .section-03-list img {
+    width: 270px;
+   height: 260px;
+  }
+.section-03-abzac{
     color: var(--abzac-color);
-
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 171.429% */
-letter-spacing: 0.42px;
-}
-
-.section-02-title{
-    color: var(--black-color);
-
-text-align: center;
-font-family: Roboto;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 1.08px;
-}
-.section-03-title{color: var(--black-color);
-
-    text-align: center;
-    font-family: Roboto;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 1.08px;}
-
-    .footer-list{
-        color: var(--white-color);
-
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 171.429% */
-letter-spacing: 0.42px;
-    }
-.section-03-h3{color: var(--black-color);
-
-    text-align: center;
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.48px;}
-    .section-03-abzac{
-        color: var(--abzac-color);
-
-text-align: center;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 0.48px;
-    }
+}
+.section-03-h3{
+    font-family: "Roboto";
+    font-size: 16px;
+}
+.section-03-list p{
+    padding-top: 10px;
+}
+.section-03-list h3{
+    padding-top: 30px;
+}
+.section-03-title{
+    padding-bottom: 50px;
+    padding-top: 94px;
+}
+.header-list:hover{
+    color: var(--blue-color);
+}
