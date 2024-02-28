@@ -172,3 +172,53 @@ footer {
 .header-list:hover{
     color: var(--blue-color);
 }
+
+
+
+
+.article-title{
+  width: 696px;
+height: 120px;
+padding-left: 452px;
+border-right: 452px;
+border-bottom: 280px;
+padding-top: 200px;
+
+}
+
+.article-button{
+  
+ border-top: 440px;
+margin-left: 724px;
+  
+  
+}
+
+
+
+header{
+  width: 1600px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+
+}
+
+header .logo{
+  margin-left: 215px;
+}
+
+.header-list{
+  display: flex;
+  width: 281px;
+  height: 16px;
+  justify-content: space-between;
+  margin-left: 93px;
+  margin-right: 344px;
+}
+
+
+
+
+  
